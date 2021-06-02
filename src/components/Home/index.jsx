@@ -10,7 +10,7 @@ const Home = () => {
                 <p> My name is Parker </p>
                 <p> I am a tennis coach and web developer </p>
             </h1>
-            <Link to="about">
+            <Link to="/about">
                 <button> About </button>
             </Link>
         </div>
