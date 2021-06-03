@@ -4,6 +4,9 @@ import Footer from './components/Footer';
 import About from './components/About'; 
 import NavBar from './components/NavBar'; 
 import Skills from './components/Skills';
+import Education from './components/Education';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
     <Route exact path="/skills" component={Skills} />
+    <Route exact path="/education" component={Education} />
+    <Route exact path="/resume" component={Resume} />
+    <Route exact path="/contact" component={Contact} />
     </Switch>
     <Footer />
     </div>
