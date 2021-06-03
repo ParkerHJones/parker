@@ -5,3 +5,8 @@
 .resume h1 {
     margin-bottom: 20px; 
 }
+
+.ul {
+    list-style-type: circle;
+    font-size: 28px;
+}

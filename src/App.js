@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Tennis from './components/Tennis';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Route exact path="/education" component={Education} />
     <Route exact path="/resume" component={Resume} />
     <Route exact path="/contact" component={Contact} />
+    <Route exact path="/tennis" component={Tennis} />
     </Switch>
     <Footer />
     </div>

@@ -3,8 +3,8 @@ const Footer  = () => {
     return (
         <footer>
             <img
-            href="https://github.com/ParkerHJones"
-            alt="LinkIn-icon"
+            // href="https://github.com/ParkerHJones"
+            // alt="LinkIn-icon"
             />
         </footer>
     )
