@@ -8,7 +8,7 @@ const Home = () => {
             <h1>
                 <p> Hello </p>
                 <p> My name is Parker </p>
-                <p> I am a tennis  </p>
+                <p> I am a tennis coach and a developer </p>
             </h1>
             <Link to="/about">
                 <button> About </button>
