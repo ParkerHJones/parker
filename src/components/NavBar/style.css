@@ -67,7 +67,7 @@
     padding: 8px;
     position: absolute;
     border-radius: 999px;
-    background-color: #dddddd;
+    background-color: pink;
     transition: all 0.5s ease-in-out;
   }
   
