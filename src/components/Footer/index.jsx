@@ -9,6 +9,15 @@ const Footer  = () => {
             <img
              src={`${process.env.PUBLIC_URL}/Github.png`}
              alt="LinkIn-icon"
+             />
+            </a>
+            <a
+            href="https://www.tiktok.com/@parksibebe?lang=en"
+            target="_blank"
+            >
+            <img
+            src={`${process.env.PUBLIC_URL}/tiktok2.jpeg`}
+            alt="LinkIn-icon"
             />
             </a>
         </footer>
