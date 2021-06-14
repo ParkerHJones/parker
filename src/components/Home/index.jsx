@@ -7,7 +7,7 @@ const Home = () => {
         <div className="title">
             <h1>
                 <p> Hello </p>
-                <p> My name is Parker </p>
+                <p> My name is Parker Jones </p>
                 <p> I am a tennis coach and a developer </p>
             </h1>
             <Link to="/about">
@@ -16,8 +16,8 @@ const Home = () => {
         </div>
         <div className ="person">
             <img
-            // src={`${process.env.PUBLIC_URL}/Snowflake.jpg`}
-            // alt="picture"
+            src={`${process.env.PUBLIC_URL}/pinkshirt.jpeg`} 
+            alt="picture"
             />
         </div>
         </div>
