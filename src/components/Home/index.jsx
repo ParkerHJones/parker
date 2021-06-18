@@ -8,7 +8,7 @@ const Home = () => {
             <h1>
                 <p> Hello </p>
                 <p> My name is Parker Jones </p>
-                <p> I am a tennis coach and a developer </p>
+                <p> I am a tennis coach and web developer </p>
             </h1>
             <Link to="/about">
                 <button> About </button>
@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className ="person">
             <img
-            src={`${process.env.PUBLIC_URL}/pinkshirt.jpeg`} 
+            // src={`${process.env.PUBLIC_URL}/pinkshirt.jpeg`} 
             alt="picture"
             />
         </div>
