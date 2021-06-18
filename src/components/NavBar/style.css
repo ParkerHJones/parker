@@ -56,7 +56,7 @@
 
 .list-wrapper ul li a:hover {
   color: #000000;
-  background-color: #dddddd;
+  background-color: white;
 }
 
 .list-wrapper img {
@@ -67,7 +67,7 @@
   padding: 8px;
   position: absolute;
   border-radius: 999px;
-  background-color: #dddddd;
+  background-color: white;
   transition: all 0.5s ease-in-out;
 }
 
