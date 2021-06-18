@@ -38,6 +38,11 @@
     width: 80%; 
 }
 
+.picture {
+    width: 10%;
+    height: 25%;
+}
+
 @media (min-width: 800px) {
     .home {
         flex-direction: row;
