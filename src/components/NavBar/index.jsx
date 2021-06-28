@@ -9,10 +9,16 @@ const NavBar = () => {
     const trackScreenWidth = () => {
         const width = window.innerWidth;
         setScreenWidth(width);
-        if (width > 800) {
+        if (width > 600) {
             setOpen(true);
         }
     };
+
+    const handleClose = () => {
+        if (screenWidth < 600) {
+          setOpen(false);
+        }
+      };
 
     useEffect(() => {
         trackScreenWidth();
